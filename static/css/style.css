@@ -1,4 +1,7 @@
-html body{
-    background-color: white;
-
+form.login_form {
+-width: 450px;
+    background-color: #ffcc00;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
 }

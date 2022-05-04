@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="display: flex;justify-content: center; margin-left: auto;margin-right: auto;">
+    <h1>{{information['name']}}</h1>
+</div>
+<div style="display: flex;justify-content: center; margin-left: auto;margin-right: auto;">
+    <a><img src="{{information['image']}}" alt=""></a>
+</div>
+<div style="display: flex;justify-content: center; margin-left: auto;margin-right: auto;">
+
+    <h1> {{information['speciality']|sort|join(", ")}}</h1>
+
+</div>
+{% endblock %}
