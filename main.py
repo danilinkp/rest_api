@@ -50,13 +50,7 @@ def user_add():
     user.address = "132"
     user.email = "123@mars.org"
     user.city = "Москва"
-
-
-
-
     db_sess.add(user)
-
-
     db_sess.commit()
 
 
